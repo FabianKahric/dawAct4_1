@@ -1,0 +1,42 @@
+body{
+    background-color: #dedede;
+}
+
+header{
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.container{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container h1{
+    font-size: 50px;
+
+    position: relative;
+}
+
+.container h1::before{
+    content: "👋";
+}
+
+.container h1::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: royalblue;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+}
+
+.container p{
+    font-size: 20px;
+    
+}
